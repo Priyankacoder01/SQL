@@ -1,0 +1,28 @@
+use college;
+CREATE TABLE Student(
+ id INT PRIMARY KEY,
+ name VARCHAR(50),
+ age INT NOT NULL
+ );
+ 
+ INSERT INTO student VALUES(1,"PRIYANKA",20);
+ INSERT INTO student VALUES(2,"ISHAN",21);
+ 
+ SELECT * FROM student;
+ 
+ CREATE DATABASE XYZ;
+ USE XYZ;
+ CREATE TABLE EMPLOYEE_INFO(
+ id INT PRIMARY KEY,name VARCHAR(50),salary INT not null
+ );
+ 
+ INSERT INTO EMPLOYEE_INFO
+ (id,name,salary)
+ VALUES
+ (1,"adam",25000),
+ (2,"bob",30000),
+ (3,"casey",40000);
+ 
+ SELECT * FROM EMPLOYEE_INFO;
+
+ 
